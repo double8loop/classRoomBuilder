@@ -7,7 +7,9 @@ function main() {
     const resource = createCourseResource(course);
     console.log(resouce);
     });
-
+  
+  // 3. write the code url and share code the spreadsheet
+  
   
   
 }
