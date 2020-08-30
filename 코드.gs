@@ -4,9 +4,9 @@ function main() {
   
   // 2. create the courses on the classroom
   courses.forEach(course => {
-                  const resource = createCourseResource(course);
-  console.log(resouce);
-});
+    const resource = createCourseResource(course);
+    console.log(resouce);
+  });
 
   
   
