@@ -6,7 +6,7 @@ function main() {
   courses.forEach(course => {
     const resource = createCourseResource(course);
     console.log(resouce);
-  });
+    });
 
   
   
