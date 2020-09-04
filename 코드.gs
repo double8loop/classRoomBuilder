@@ -1,15 +1,18 @@
 function main() {
-  // 1. get the courses from the spreadsheet
-  const courses = getCoursesFromSpreadsheet();
+  let crs = Classroom.newCourse();
+  crs.name = `수퍼클리닉 테스트`;
+  crs.section = `수학영역`;
+  crs.ownerId = `jh.lee@spira-t.com`;
+  Classroom.Courses.create(crs);
   
-  // 2. create the courses on the classroom
-  courses.forEach(course => {
-    const resource = createCourseResource(course);
-    console.log(resouce);
-    });
-  
-  // 3. write the code url and share code the spreadsheet
   
   
   
 }
+
+
+function deleteCourse(){
+  
+  Classroom.Courses.remove(140078979061);
+ }
+  
